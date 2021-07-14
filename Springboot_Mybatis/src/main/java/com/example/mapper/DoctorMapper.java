@@ -1,0 +1,1 @@
+package com.example.mapper;import com.example.entity.Doctor;import org.apache.ibatis.annotations.Mapper;import org.springframework.stereotype.Repository;/** * @Auther: Zhou_Li * @Date: 2021/7/8 11:03 * @Description: */@Repositorypublic interface DoctorMapper {    Doctor selById(int id);    Doctor[] selByName(String name);    Doctor[] findAllDoctor();}

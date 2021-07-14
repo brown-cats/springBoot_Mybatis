@@ -1,0 +1,1 @@
+package com.example.mapper;import com.example.entity.Info;import org.springframework.stereotype.Repository;import java.sql.Blob;/** * @Auther: Zhou_Li * @Date: 2021/7/13 16:55 * @Description: */@Repositorypublic interface InfoMapper {    Info getBlobById(int id);    String getClobById(int id);    Info[] getAllBlob();}
